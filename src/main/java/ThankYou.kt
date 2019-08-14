@@ -1,3 +1,5 @@
+@file:Suppress("FunctionName")
+
 val message = """
     
 .___________. __    __       ___      .__   __.  __  ___    ____    ____  ______    __    __   __  
