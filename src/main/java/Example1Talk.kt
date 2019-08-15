@@ -7,6 +7,7 @@ data class Talk(
 data class Speaker(
     val name: String,
     val twitter: String,
+    val roles: List<String>,
     val company: Company
 )
 
@@ -19,7 +20,10 @@ data class Company(
 val talk = Talk(
     "Kotlin's companion object: The power of IntelliJ IDEA",
     "https://github.com/mreichelt/kotlin-talk-intellij-tricks",
-    Speaker("Marc Reichelt", "mreichelt", Company("iteratec GmbH", "https://iteratec.de"))
+    Speaker(
+        "Marc Reichelt", "mreichelt", listOf("Software Engineer", "Has a ♥ for Kotlin", "GDG Organizer"),
+        Company("iteratec GmbH", "https://iteratec.de")
+    )
 )
 
 
