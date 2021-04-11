@@ -16,13 +16,16 @@ data class Company(
     val url: String
 )
 
+class Rocket {
+    var speed = 0
+}
 
 val talk = Talk(
-    "Kotlin's companion object: The power of IntelliJ IDEA",
+    "Kotlin's companion: The power of IntelliJ IDEA",
     "https://github.com/mreichelt/kotlin-talk-intellij-tricks",
     Speaker(
-        "Marc Reichelt", "mreichelt", listOf("Software Engineer", "Has a ♥ for Kotlin", "GDG Organizer"),
-        Company("iteratec GmbH", "https://iteratec.de")
+        "Marc Reichelt", "mreichelt", listOf("Software Architect", "Kotlin Trainer"),
+        Company("iteratec", "https://iteratec.com")
     )
 )
 
@@ -32,4 +35,6 @@ fun main() {
     // Add names to call arguments
     // Put arguments on separate lines
     // `main` live template (plus arguments!)
+    // Cmd + J to look up all live templates
+    // Add getters and setters to speed of rocket
 }

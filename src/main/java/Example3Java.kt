@@ -8,13 +8,14 @@ class DeepThought {
 
 """.trimIndent()
 
+const val someJson = """{"username": "username", "password": "password"}"""
+
 fun main() {
     println(someJava)
+    println(someJson)
     // inject language or reference
     // add new scratch file
-    // convert Kotlin to Java
-
-//    println(DeepThought.theAnswerToLifeTheUniverseAndEverything)
+    // scratch + JSON formatting
 
     // show regex example (and how to check regex!)
     val hexColorRegex = "^#?([a-f0-9]{6}|[a-f0-9]{3})$"

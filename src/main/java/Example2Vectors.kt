@@ -15,7 +15,7 @@ fun main() {
 //    val c = a + b
 //    println(c)
 
-    // show / hide variable types
+    // show / hide variable types (now: inlay hints)
     // add type explicitly
     val something = listOf(a, b).map { it.x }.sum()
     println(something)
