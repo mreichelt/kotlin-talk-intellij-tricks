@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation "org.apache.pdfbox:pdfbox:2.0.14"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-jdk9:1.4.3"
 
     testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
