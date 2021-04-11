@@ -29,6 +29,8 @@ val talk = Talk(
     )
 )
 
+// Alt + Enter
+
 
 fun main() {
     println(talk)
