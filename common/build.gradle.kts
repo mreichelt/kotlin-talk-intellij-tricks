@@ -10,12 +10,6 @@ repositories {
 
 kotlin {
     jvm()
-    macosX64("macOS")
-    iosX64("iOS")
-    js {
-        browser {
-        }
-    }
 
     sourceSets {
         val commonMain by getting {
@@ -34,10 +28,10 @@ kotlin {
                 implementation(kotlin("test-junit"))
             }
         }
-        val jsTest by getting {
-            dependencies {
-                implementation(kotlin("test-js"))
-            }
-        }
+//        val jsTest by getting {
+//            dependencies {
+//                implementation(kotlin("test-js"))
+//            }
+//        }
     }
 }
