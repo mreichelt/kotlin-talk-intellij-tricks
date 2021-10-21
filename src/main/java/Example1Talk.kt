@@ -24,8 +24,8 @@ val talk = Talk(
     "Kotlin's companion: The power of IntelliJ IDEA",
     "https://github.com/mreichelt/kotlin-talk-intellij-tricks",
     Speaker(
-        "Marc Reichelt", "mreichelt", listOf("Software Architect", "Kotlin Trainer"),
-        Company("iteratec", "https://iteratec.com")
+        "Marc Reichelt", "mreichelt", listOf("Senior Android Developer", "Kotlin Fan"),
+        Company("Snapp Mobile", "https://snappmobile.io/")
     )
 )
 
