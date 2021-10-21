@@ -10,8 +10,8 @@ repositories {
 
 kotlin {
     jvm()
-    macosX64("macOS")
-    iosX64("iOS")
+    macosArm64("macOS")
+    iosSimulatorArm64("iOS")
     js {
         browser {
         }
