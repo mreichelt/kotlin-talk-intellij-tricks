@@ -1,6 +1,6 @@
-# Talk: Kotlin's companion object: The power of IntelliJ IDEA
+# Talk: Kotlin's companion: The power of IntelliJ IDEA
 
-[![Build Status](https://travis-ci.org/mreichelt/kotlin-talk-intellij-tricks.svg?branch=master)](https://travis-ci.org/mreichelt/kotlin-talk-intellij-tricks)
+[![Build Status](https://travis-ci.org/mreichelt/kotlin-talk-intellij-tricks.svg?branch=main)](https://travis-ci.org/mreichelt/kotlin-talk-intellij-tricks)
 
 Kotlin's power is coming not only by its syntax, but also by its awesome IDE integration. IntelliJ is full of great
 helpers and shortcuts that makes us more productive - and has some extras that make Kotlin development even better!
