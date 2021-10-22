@@ -13,6 +13,7 @@ Or simply have a look at those tips & tricks [here](src/main/java/).
 recording of the talk on YouTube:
 
 [![Recorded talk on YouTube](video_thumbnail.png)](https://youtube.com/watch?v=p-6bBCBhCDA)
+
 [https://youtube.com/watch?v=p-6bBCBhCDA](https://youtube.com/watch?v=p-6bBCBhCDA)
 
 Join the discussion in [Kotlin Slack](https://kotlinlang.slack.com/messages/CM6CU9RGV) to learn more tips & tricks
