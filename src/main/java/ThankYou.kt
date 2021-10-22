@@ -13,16 +13,25 @@ val thankYou = """
 
 fun main() {
     println(thankYou)
+    `reach me on Twitter`("mreichelt")
+    `watch previous recording on YouTube`("https://youtube.com/watch?v=p-6bBCBhCDA")
     `drink beer and have fun`()
     `check out the code on GitHub`()
     `find out more awesome IntelliJ tips and tricks`()
     `join the discussion in the intellij-tricks channel in Kotlin Slack`()
 }
 
+fun `watch previous recording on YouTube`(videoUrl: String) {
+    println("watch previous recording on YouTube: $videoUrl")
+}
+
+fun `reach me on Twitter`(twitterHandle: String) {
+    println("reach me on Twitter: $twitterHandle")
+}
 
 fun `drink beer and have fun`() {
-    repeat(24) {
-        println("🍻".repeat(42))
+    repeat(3) {
+        println("🍻".repeat(8))
     }
 }
 
